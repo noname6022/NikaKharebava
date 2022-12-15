@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NikaKharebava/static/css/main.d8f4f83e.css",
+    "main.js": "/NikaKharebava/static/js/main.13186a72.js",
+    "static/js/787.368b109e.chunk.js": "/NikaKharebava/static/js/787.368b109e.chunk.js",
+    "static/media/david.gif": "/NikaKharebava/static/media/david.fed91f4ac3062f1cfb49.gif",
+    "static/media/ATM.png": "/NikaKharebava/static/media/ATM.841ac65bff70fe841f25.png",
+    "static/media/aboutMeImage.jpg": "/NikaKharebava/static/media/aboutMeImage.5dce8c6ae799e0690e35.jpg",
+    "static/media/ATMMobile.png": "/NikaKharebava/static/media/ATMMobile.6a140dbf4b61a7aee618.png",
+    "static/media/Discord.svg": "/NikaKharebava/static/media/Discord.2c82953edbd00b6dee90eb0bc3d66abe.svg",
+    "index.html": "/NikaKharebava/index.html",
+    "static/media/Telegram.svg": "/NikaKharebava/static/media/Telegram.a1f24d54e716cdc2a9d529e5013cf38b.svg",
+    "static/media/ArrowLeft.svg": "/NikaKharebava/static/media/ArrowLeft.307d4692aceeb015464c5e14051e66b1.svg",
+    "static/media/ArrowRight.svg": "/NikaKharebava/static/media/ArrowRight.10bea1cfd7b9cffc57940f7434c42c27.svg",
+    "main.d8f4f83e.css.map": "/NikaKharebava/static/css/main.d8f4f83e.css.map",
+    "main.13186a72.js.map": "/NikaKharebava/static/js/main.13186a72.js.map",
+    "787.368b109e.chunk.js.map": "/NikaKharebava/static/js/787.368b109e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8f4f83e.css",
+    "static/js/main.13186a72.js"
+  ]
+}
