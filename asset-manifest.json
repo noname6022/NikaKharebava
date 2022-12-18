@@ -1,10 +1,14 @@
 {
   "files": {
     "main.css": "/NikaKharebava/static/css/main.a3daeacf.css",
-    "main.js": "/NikaKharebava/static/js/main.51f3c649.js",
+    "main.js": "/NikaKharebava/static/js/main.49460027.js",
     "static/js/787.368b109e.chunk.js": "/NikaKharebava/static/js/787.368b109e.chunk.js",
+    "static/media/ARG.png": "/NikaKharebava/static/media/ARG.6b9fb5e0799c003ad570.png",
+    "static/media/ORU.png": "/NikaKharebava/static/media/ORU.e2798e1f2c8620de2a9e.png",
     "static/media/david.gif": "/NikaKharebava/static/media/david.fed91f4ac3062f1cfb49.gif",
     "static/media/ATM.png": "/NikaKharebava/static/media/ATM.841ac65bff70fe841f25.png",
+    "static/media/ORUMobile.png": "/NikaKharebava/static/media/ORUMobile.888980098585bbf6331b.png",
+    "static/media/ARGMobile.png": "/NikaKharebava/static/media/ARGMobile.99c6405389eca1c59b73.png",
     "static/media/aboutMeImage.jpg": "/NikaKharebava/static/media/aboutMeImage.5dce8c6ae799e0690e35.jpg",
     "static/media/ATMMobile.png": "/NikaKharebava/static/media/ATMMobile.6a140dbf4b61a7aee618.png",
     "index.html": "/NikaKharebava/index.html",
@@ -13,11 +17,11 @@
     "static/media/ArrowLeft.svg": "/NikaKharebava/static/media/ArrowLeft.307d4692aceeb015464c5e14051e66b1.svg",
     "static/media/ArrowRight.svg": "/NikaKharebava/static/media/ArrowRight.10bea1cfd7b9cffc57940f7434c42c27.svg",
     "main.a3daeacf.css.map": "/NikaKharebava/static/css/main.a3daeacf.css.map",
-    "main.51f3c649.js.map": "/NikaKharebava/static/js/main.51f3c649.js.map",
+    "main.49460027.js.map": "/NikaKharebava/static/js/main.49460027.js.map",
     "787.368b109e.chunk.js.map": "/NikaKharebava/static/js/787.368b109e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3daeacf.css",
-    "static/js/main.51f3c649.js"
+    "static/js/main.49460027.js"
   ]
 }
