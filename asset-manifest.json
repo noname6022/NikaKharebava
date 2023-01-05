@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NikaKharebava/static/css/main.a3daeacf.css",
-    "main.js": "/NikaKharebava/static/js/main.49460027.js",
+    "main.js": "/NikaKharebava/static/js/main.2ac80956.js",
     "static/js/787.368b109e.chunk.js": "/NikaKharebava/static/js/787.368b109e.chunk.js",
     "static/media/ARG.png": "/NikaKharebava/static/media/ARG.6b9fb5e0799c003ad570.png",
     "static/media/ORU.png": "/NikaKharebava/static/media/ORU.e2798e1f2c8620de2a9e.png",
@@ -17,11 +17,11 @@
     "static/media/ArrowLeft.svg": "/NikaKharebava/static/media/ArrowLeft.307d4692aceeb015464c5e14051e66b1.svg",
     "static/media/ArrowRight.svg": "/NikaKharebava/static/media/ArrowRight.10bea1cfd7b9cffc57940f7434c42c27.svg",
     "main.a3daeacf.css.map": "/NikaKharebava/static/css/main.a3daeacf.css.map",
-    "main.49460027.js.map": "/NikaKharebava/static/js/main.49460027.js.map",
+    "main.2ac80956.js.map": "/NikaKharebava/static/js/main.2ac80956.js.map",
     "787.368b109e.chunk.js.map": "/NikaKharebava/static/js/787.368b109e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3daeacf.css",
-    "static/js/main.49460027.js"
+    "static/js/main.2ac80956.js"
   ]
 }
