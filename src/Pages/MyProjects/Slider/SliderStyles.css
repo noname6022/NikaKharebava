@@ -1,0 +1,95 @@
+.SliderWrapper {
+  width: 93vw;
+  left: 2vw;
+  position: relative;
+  outline: none;
+  
+}
+
+
+.Slides{
+  width: 100%;
+  display: grid !important;
+  justify-items: center;
+  outline: none;
+}
+
+.SlideImages{
+   width: 71vw;
+height: 71vh;
+outline: none;
+}
+
+.rightArrow{
+  width: 3vw;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  cursor: pointer;
+  top: 32vh;
+  right: 1.8vw;
+  z-index: 5;
+  outline: none;
+}
+
+.LeftArrow{
+  width: 3vw;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 32vh;
+  left: 5vw;
+  cursor: pointer;
+  z-index: 5;
+  outline: none;
+}
+
+.Arrow{
+width: 2vw;
+height: 2vmax;
+outline: none;
+}
+
+.SlideLink{
+font-size: 3vw;
+margin: 0;
+padding: 0;
+color: #FFFFFF;
+font-weight: 100;
+text-decoration: none;
+outline: none;
+
+}
+
+.SlideLink:after {    
+  margin-top: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0.25vh;
+  width: 0;
+  left: 0;
+  position: relative;
+  background: #FFFFFF;
+  outline: none;
+  transition: width 0.72s ease 0s,left 0.72s ease 0s;
+}
+.SlideLink:hover:after { 
+  width: 100.2%; 
+  outline: none;
+}
+
+@media (max-width: 480px){
+.Arrow {
+width: 8vw;
+height: 4vmax;
+}
+
+.LeftArrow {
+left: 0vw;
+}
+
+.rightArrow {
+right: 4.8vw;
+}
+}

@@ -1,0 +1,424 @@
+.ContactsWrapper{
+    display: grid;
+    background: white;
+    grid-template-rows: 17vh 71vh 11vh;
+    height: 100vh;
+}
+    
+    .TitleContactsContainer{
+        display: flex;
+        position: relative;
+        top: 4vh;
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+        position: relative;
+        top: 4vh;
+        height: fit-content;
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+        color: #000000;
+        font-size: 1.5vw;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+      }
+
+
+ 
+    .marquee {
+        position: relative;
+        left:  1.2vw;
+        width: 97vw;
+        max-width: 100%;
+        height: 7vh;
+        overflow-x: hidden;
+      }
+      
+      .track {
+        position: absolute;
+        white-space: nowrap;
+        will-change: transform;
+        animation: marquee 12.6s linear infinite;
+      }
+      
+      @keyframes marquee {
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
+      }
+
+      .infoContacts{
+        height: 68vh;
+        top: 1vh;
+        display: grid;
+        left: 6vw;
+        position: relative;
+        grid-template-rows: 11vmin 41vmin 16vmin;
+        align-items: center;
+      }
+      
+      .ContactsContainer{
+        display: grid;
+        grid-template-columns: 52vw 43vw;
+        justify-items: start;
+        align-items: center;
+      }
+
+      .infoContacts h1{
+        font-family: 'Unbounded', cursive;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #000000;
+        font-size: 7.56vmin;
+        margin-left: -0.3vw;
+    }
+
+    .arrow-wrapper{
+        rotate: 90deg;
+        width: 7vw;
+        height: 4vh;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        justify-items: center;
+      }
+        .arrow-wrapper:last-child {
+      margin-top: 7vh;
+      }
+
+      .arrow{
+        width: 1.4vw;
+        height: 1.4vmax;
+        position: absolute;
+        content: "";
+        border-width: 1vw;
+        border-color: black transparent transparent black;
+        border-style: solid;
+        border-radius: 0;
+        opacity: 0;
+        animation: pulse 2s linear 0s infinite normal none;
+      }
+      
+      .arrow:nth-child(1){
+        transform: translate(-3vh, -1vw) rotate(45deg);
+        animation-delay: 0.5s;
+      }
+      
+      .arrow:nth-child(2){
+        transform: translate(-3vh, 1.5vw) rotate(45deg);
+        animation-delay: 0.25s;
+      }
+      
+      .arrow:nth-child(3){
+        transform: translate(-3vh, 3.8vw) rotate(45deg);
+      }
+      
+      @keyframes pulse{
+        0%  { opacity: 0 }
+        50% { opacity: 0.8 }
+        100% {  opacity: 0 }
+      }
+
+
+
+      .TalkWrapper{
+        position: relative;
+        top: -28vh;
+        right: -10vw;
+
+      }
+      .TalkContainer{
+        display:grid
+      }
+      .WhiteBox{
+        border: 0.67vw solid #000;
+        width: 24vw;
+        height: 35vh;
+        position: absolute;
+      }
+
+      .BlackBox{
+        background: #000;
+        width: 22.9vw;
+        height: 34vh;
+        display: grid;
+        position: absolute;
+        top: 14.7vh;
+        right: -23.3vw;
+        justify-items: center;
+        grid-template-columns: 7vw 9.2vw 7vw;
+        grid-template-rows: 26vh 8vh;
+        padding: 1.2vw;
+      }
+
+      .BlackBox h3{
+        color: white;
+        font-size: 4.1vw;
+        margin-top: -3.13vw;
+        font-weight: 500;
+        mix-blend-mode: difference;
+        position: absolute;
+      }
+   
+      .talkArrowWrapper{
+        rotate: 180deg;
+        top: 3vh;
+        width: 6vw;
+        height: 18vh;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        justify-items: center;
+      }
+
+    
+      .talkArrow{
+        border-color: #FFFFFF transparent transparent #FFFFFF !important;
+        width: 1.4vw;
+        height: 1.4vmax;
+        position: relative;
+        content: "";
+        border-width: 1vw;
+        border-style: solid;
+        border-radius: 0;
+        opacity: 0;
+        animation: pulse 2s linear 0s infinite normal none;
+      }
+
+      .talkArrow:nth-child(1){
+        transform: none;
+        animation-delay: 0.5s;
+        rotate: 45deg;
+      }
+
+      .talkArrow:nth-child(2){
+        transform: none;
+        animation-delay: 0.5s;
+        rotate: 45deg;
+      }
+
+      .talkArrow:nth-child(3){
+        transform: none;
+        animation-delay: 0.5s;
+        rotate: 45deg;
+      }
+
+      .TalkWave{
+        background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/002/486/154/c06.gif);
+        background-size: 10vw 25vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        top: 4vh;
+        font-size: 1vw;
+        line-height: 3.3vh;
+        position: relative;
+      }
+
+      .telegramLink{
+        top: 26vh;
+        left: 1.56vw;
+      }
+
+      .telegramIcon{
+        width: 6.7vmin;
+        height: 6.3vmin;
+      }
+
+    .discordLink{
+
+      top: 26vh;
+      right: 2.48vw;        
+      grid-row:  2;
+        grid-column: 3;
+    }
+
+      .discordIcon{
+        width: 6.7vmin;
+        height: 6.3vmin;
+
+      }
+
+      @media (max-width: 480px){
+
+        .ContactsContainer {
+          display: grid;
+          grid-template-columns: 0;
+          align-items: center;
+          grid-template-rows: 44vh 0vh;
+          justify-items: start;
+      }
+
+      .infoContacts {
+        height: 34vh;
+        top: -9vh;
+        display: grid;
+        left: 6vw;
+        position: relative;
+        align-content: center;
+        align-items: center;
+        grid-template-columns: 12vw 58vw 13vw;
+        grid-template-rows: 57vw;
+    }
+
+.TalkWave {
+  background-size: 30vw 18vh;
+  top: 1vh;
+  font-size: 3vw;
+  line-height: 2.3vh;
+  position: relative;
+  width: 31vw;
+  height: 29vh;
+  background-position: top;
+}
+
+.arrow-wrapper {
+  rotate: 182deg;
+  width: 4vw;
+  height: 4vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  grid-row: 2;
+  grid-column: 1;
+}
+.arrow-wrapper:last-child {
+  grid-row: 2;
+  grid-column: 3;
+  margin-top: 0;
+}
+
+.arrow {
+  width: 1.4vmax;
+  height: 1.4vmax;
+  position: absolute;
+  content: "";
+  border-width: 2.5vw;
+  border-color: black transparent transparent black;
+  border-style: solid;
+  border-radius: 0;
+  opacity: 0;
+  animation: pulse 2s linear 0s infinite normal none;
+}
+
+.arrow:nth-child(1) {
+  transform: translate(-3vh, -8vw) rotate(43deg);
+  animation-delay: 0.5s;
+}
+
+.arrow:nth-child(2) {
+  transform: translate(-3vh, -1.5vw) rotate(43deg);
+  animation-delay: 0.25s;
+}
+
+.arrow:nth-child(3) {
+  transform: translate(-3vh, 4.8vw) rotate(43deg);
+  animation-delay: 0.25s;
+}
+
+.infoContacts h1 {
+  font-family: 'Unbounded', cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000000;
+  font-size: 9.56vw;
+  margin-left: -0.3vw;
+}
+
+.TalkWrapper {
+  display: grid;
+  position: relative;
+  top: -5vh;
+  right: -20vw;
+}
+.WhiteBox {
+  border: 2vw solid #000;
+  width: 56vw;
+  height: 22vh;
+  position: absolute;
+}
+
+.BlackBox {
+  background: #000;
+  width: 52.9vw;
+  height: 20.5vh;
+  display: grid;
+  position: absolute;
+  top: 9.4vh;
+  right: -55vw;
+  justify-items: center;
+  grid-template-columns: 9vw 36.2vw 9vw;
+  grid-template-rows: 15vh 8vh;
+  padding: 3.2vw;
+}
+
+.telegramIcon {
+  width: 8.7vmin;
+  height: 8.3vmin;
+}
+
+.discordIcon {
+  width: 8.7vmin;
+  height: 8.3vmin;
+}
+.talkArrowWrapper {
+  rotate: 137deg !important;
+  left: -6.7vw !important;
+  grid-row: auto !important;
+  grid-column: auto !important;
+  justify-items: center !important;
+}
+
+.talkArrowWrapperSecond {
+left: -7vw !important;
+}
+  .talkArrow{
+        border-color: #FFFFFF transparent transparent #FFFFFF !important;
+        width: 1.4vmax !important;
+        height: 1.4vmax !important;
+        position: relative;
+        content: "";
+        border-width: 2vw;
+        border-style: solid;
+        border-radius: 0;
+        opacity: 0;
+        animation: pulse 2s linear 0s infinite normal none;
+      }
+
+      .talkArrow:nth-child(1){
+        transform: translate(-7.4vmin, -5vh) rotate(43deg) !important;
+        animation-delay: 0.5s;
+    
+      }
+      
+      .talkArrow:nth-child(2){
+        transform: translate(-11.8vmin, -3vh) rotate(43deg) !important;
+        animation-delay: 0.25s;
+      }
+      
+      .talkArrow:nth-child(3){
+        transform: translate(-16.45vmin, -1vh) rotate(43deg) !important;
+        animation-delay: 0.25s;
+      }
+      
+
+.BlackBox h3 {
+  color: white;
+  font-size: 10.1vw;
+  margin-top: -8vw;
+  font-weight: 500;
+  mix-blend-mode: difference;
+  position: absolute;
+}
+
+        .TitleContactsContainer{
+        font-size: 4.5vw;
+      }
+      }
