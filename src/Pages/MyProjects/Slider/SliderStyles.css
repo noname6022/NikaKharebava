@@ -3,24 +3,23 @@
   left: 2vw;
   position: relative;
   outline: none;
-  
 }
 
-
-.Slides{
+.Slides {
   width: 100%;
   display: grid !important;
   justify-items: center;
   outline: none;
 }
 
-.SlideImages{
-   width: 71vw;
-height: 71vh;
-outline: none;
+.SlideImages {
+  width: 71vw;
+  height: 71vh;
+  outline: none;
+  object-fit: contain;
 }
 
-.rightArrow{
+.rightArrow {
   width: 3vw;
   margin: 0;
   padding: 0;
@@ -32,7 +31,7 @@ outline: none;
   outline: none;
 }
 
-.LeftArrow{
+.LeftArrow {
   width: 3vw;
   margin: 0;
   padding: 0;
@@ -44,24 +43,23 @@ outline: none;
   outline: none;
 }
 
-.Arrow{
-width: 2vw;
-height: 2vmax;
-outline: none;
+.Arrow {
+  width: 2vw;
+  height: 2vmax;
+  outline: none;
 }
 
-.SlideLink{
-font-size: 3vw;
-margin: 0;
-padding: 0;
-color: #FFFFFF;
-font-weight: 100;
-text-decoration: none;
-outline: none;
-
+.SlideLink {
+  font-size: 3vw;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-weight: 100;
+  text-decoration: none;
+  outline: none;
 }
 
-.SlideLink:after {    
+.SlideLink:after {
   margin-top: 0;
   bottom: 0;
   content: "";
@@ -70,26 +68,26 @@ outline: none;
   width: 0;
   left: 0;
   position: relative;
-  background: #FFFFFF;
+  background: #ffffff;
   outline: none;
-  transition: width 0.72s ease 0s,left 0.72s ease 0s;
+  transition: width 0.72s ease 0s, left 0.72s ease 0s;
 }
-.SlideLink:hover:after { 
-  width: 100.2%; 
+.SlideLink:hover:after {
+  width: 100.2%;
   outline: none;
 }
 
-@media (max-width: 480px){
-.Arrow {
-width: 8vw;
-height: 4vmax;
-}
+@media (max-width: 480px) {
+  .Arrow {
+    width: 8vw;
+    height: 4vmax;
+  }
 
-.LeftArrow {
-left: 0vw;
-}
+  .LeftArrow {
+    left: 0vw;
+  }
 
-.rightArrow {
-right: 4.8vw;
-}
+  .rightArrow {
+    right: 4.8vw;
+  }
 }

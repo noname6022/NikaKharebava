@@ -1,139 +1,139 @@
-.AboutWrapper{
-    display: grid;
-    background: white;
-    grid-template-rows: 12vh 77vh 11vh;
-    height:  100vh;
+.AboutWrapper {
+  display: grid;
+  background: white;
+  grid-template-rows: 12vh 77vh 11vh;
+  height: 100vh;
 }
 
-.TitleAboutContainer{
-    display: flex;
-    position: relative;
-    top: 4vh;
-    height: fit-content;
-    width: fit-content;
-    margin: 0;
-    padding: 0;
-    color: black;
-    font-size: 1.5vw;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-  }
-  
-  .marquee {
-    position: relative;
-    left:  1.2vw;
-    width: 97vw;
-    max-width: 100%;
-    height: 8vh;
-    overflow-x: hidden;
-  }
-  
-  .track {
-    position: absolute;
-    white-space: nowrap;
-    will-change: transform;
-    animation: marquee 12.6s linear infinite;
-  }
-  
-  @keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
-  }
-
-  .aboutMecontainer{
-    display: grid;
-    grid-template-columns: 48vw 41vw;
-    justify-content: center;
-  }
-  .InfoAboutMe{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    transition: .2s;
-    justify-content: flex-start;
-  }
-  .InfoAboutMe p{
-    margin: 0;
-    padding: 0;
-    color: black;
-    font-size: 2.2vw;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    transition: .2s;
-  }
-
-  .second{
-    margin-top: -1.7vmin !important;
-    margin-left: 0.2vw !important;
-    line-height: 5.6vh;
+.TitleAboutContainer {
+  display: flex;
+  position: relative;
+  top: 4vh;
+  height: fit-content;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 1.5vw;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
 }
 
-  .InfoAboutMe span{
-    margin: 0;
-    padding: 0;
-    font-size: 5.1vw;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    transition: .2s;
+.marquee {
+  position: relative;
+  left: 1.2vw;
+  width: 97vw;
+  max-width: 100%;
+  height: 8vh;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 12.6s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
   }
-
-  .InfoAboutMe span:hover{
-    transition:  .2s;
-    padding-right: 0.5vw;
-    font-weight: 100;
-    font-family: 'Poppins', sans-serif;
+  to {
+    transform: translateX(-50%);
   }
+}
 
-  .ChartAboutMe{
-    display: grid;
-    align-items: baseline;
-    transition: .2s;
-    padding-top: 1.2vh;
-    justify-items: start;
+.aboutMecontainer {
+  display: grid;
+  grid-template-columns: 48vw 41vw;
+  justify-content: center;
+}
+.InfoAboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  transition: 0.2s;
+  justify-content: flex-start;
+}
+.InfoAboutMe p {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 2.2vw;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+}
 
-  }
+.second {
+  margin-top: -1.7vmin !important;
+  margin-left: 0.2vw !important;
+  line-height: 5.6vh;
+}
 
- 
-  .SkillsText p{
-    margin: 0;
-    padding: 0;
-    color: black;
-    font-size: 2.2vw;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    transition: .2s;
-  }
-  
-  .SkillsText span{
-    margin: 0;
-    padding: 0;
-    font-size: 5.1vw;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    transition: .2s;
-  }
+.InfoAboutMe span {
+  margin: 0;
+  padding: 0;
+  font-size: 5.1vw;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+}
 
-  .SkillsText{
-    display: flex;
-    align-items: baseline;
-  }
+.InfoAboutMe span:hover {
+  transition: 0.2s;
+  padding-right: 0.5vw;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
 
-  .SkillsText span:hover{
-    transition:  .2s;
-    padding-right: 0.7vw;
-    font-weight: 100;
-    font-family: 'Poppins', sans-serif;
-  }
+.ChartAboutMe {
+  display: grid;
+  align-items: baseline;
+  transition: 0.2s;
+  padding-top: 1.2vh;
+  justify-items: start;
+}
 
+.SkillsText p {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 2.2vw;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+}
 
+.SkillsText span {
+  margin: 0;
+  padding: 0;
+  font-size: 5.1vw;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+}
 
-  .imgAboutMe{
-    display: grid;
-    align-items: center;
-  }
+.SkillsText {
+  display: flex;
+  align-items: baseline;
+}
 
-.AboutMeWhiteSquare{
+.SkillsText span:hover {
+  transition: 0.2s;
+  padding-right: 0.7vw;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+.imgAboutMe {
+  display: grid;
+  align-items: center;
+}
+
+.AboutMeWhiteSquare {
   border: 0.67vw solid #000;
   width: 43.5vmin;
   height: 64.7vmin;
@@ -141,120 +141,120 @@
   right: -9vw;
   top: 2vh;
 }
-.chartContainer{
-  width:  10%;
-  height:  13%;
+.chartContainer {
+  width: 10%;
+  height: 13%;
 }
 
-.chartsWrapper{
-  box-sizing: border-box; 
+.chartsWrapper {
+  box-sizing: border-box;
   width: 40vw;
   height: 32vh;
-  position:  relative;
+  position: relative;
 }
 
-.chartsWrapper svg{
-  width: 46vw;
-    height: 30vh;
+.chartsWrapper svg {
+  width: 46vw !important;
+  height: 30vh !important;
 }
 
-  .imgAboutMe img{
-    height: 68vmin;
-    width: 47vmin;
-    position: relative;
-    right: -5vw;
-    transition: all .4s;
-    top: -58vmin;
+.imgAboutMe img {
+  height: 68vmin;
+  width: 47vmin;
+  position: relative;
+  right: -5vw;
+  transition: all 0.4s;
+  top: -58vmin;
+}
+.imgAboutMe img:hover {
+  scale: 1.02;
+  box-shadow: 0.2vw 0.3vw 2.4vw #000000;
+  outline: none;
+}
+@media (max-width: 480px) {
+  .TitleAboutContainer {
+    font-size: 4.5vw;
   }
-  .imgAboutMe img:hover{
-scale:  1.02;
-box-shadow:  0.2vw 0.3vw 2.4vw #000000;
-outline: none;
-  }
-  @media (max-width: 480px) {
-    .TitleAboutContainer{
-      font-size: 4.5vw;
-    }
 
-    .aboutMecontainer {
-      grid-template-columns: none;
-      justify-content: center;
+  .aboutMecontainer {
+    grid-template-columns: none;
+    justify-content: center;
   }
 
   .InfoAboutMe {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    transition: .2s;
+    transition: 0.2s;
     justify-content: flex-start;
     width: 94vw;
     margin-top: 4.4vh;
     margin-left: 2vw;
-}
-
-.InfoAboutMe span {
-  margin: 0;
-  padding: 0;
-  font-size: 13.1vw;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  transition: .2s;
-}
-
-.InfoAboutMe p {
-  margin: 0;
-  padding: 0;
-  color: black;
-  font-size: 5vw;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  transition: .2s;
-}
-
-.second {
-  margin-top: -2.7vmin !important;
-  margin-left: 1.2vw !important;
-  line-height: 4.6vh;
-}
-
-.ChartAboutMe {
-  display: grid;
-  align-items: baseline;
-  transition: .2s;
-  padding-top: 3.2vh;
-  padding-left: 2vw;
-  justify-items: start;
-}
-
-.ChartAboutMe span {
-  margin: 0;
-  padding: 0;
-  font-size: 14.1vw;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  transition: .2s;
-}
-
-.ChartAboutMe p {
-  margin: 0;
-  padding: 0;
-  color: black;
-  font-size: 6.2vw;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  transition: .2s;
-}
-.chartsWrapper{
-  width: 110vw;
-  margin-top: 6vh;
-}
-
-.chartsWrapper svg {
-  width: 94vw;
-  height: 22vh;
-}
-
-    .imgAboutMe{
-      display: none;
-    }
   }
+
+  .InfoAboutMe span {
+    margin: 0;
+    padding: 0;
+    font-size: 13.1vw;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+  }
+
+  .InfoAboutMe p {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 5vw;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+  }
+
+  .second {
+    margin-top: -2.7vmin !important;
+    margin-left: 1.2vw !important;
+    line-height: 4.6vh;
+  }
+
+  .ChartAboutMe {
+    display: grid;
+    align-items: baseline;
+    transition: 0.2s;
+    padding-top: 3.2vh;
+    padding-left: 2vw;
+    justify-items: start;
+  }
+
+  .ChartAboutMe span {
+    margin: 0;
+    padding: 0;
+    font-size: 14.1vw;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+  }
+
+  .ChartAboutMe p {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 6.2vw;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+  }
+  .chartsWrapper {
+    width: 110vw;
+    margin-top: 6vh;
+  }
+
+  .chartsWrapper svg {
+    width: 94vw !important;
+    height: 22vh !important;
+  }
+
+  .imgAboutMe {
+    display: none;
+  }
+}
